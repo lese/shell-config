@@ -9,7 +9,7 @@ Plugin 'gmarik/vundle'
 " Vundles
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'Raimondi/delimitMate'
