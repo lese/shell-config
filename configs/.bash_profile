@@ -39,5 +39,3 @@ BPurple="\[\033[1;35m\]"
 
 # pretty PS1
 export PS1="$BRed\u$Color_Off@$BRed\h$Color_Off:$BPurple\w$Color_Off \$ "
-
-export PATH=$PATH:/opt/android-sdk/tools/:/opt/android-sdk/platform-tools/
