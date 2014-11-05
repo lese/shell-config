@@ -24,6 +24,8 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'vim-scripts/taglist.vim.git'
 Plugin 'vim-scripts/Conque-GDB'
 Plugin 'rking/ag.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 
@@ -60,6 +62,10 @@ let g:load_doxygen_syntax = 1
 " Key mappings
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
+
+let g:UltiSnipsExpandTrigger="<c-b>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 let g:ctrlp_map = '§'
 
